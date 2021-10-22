@@ -66,7 +66,6 @@ class App extends Component {
         <Pressable style={styles.button} onPress={this.calc}>
           <Text style={styles.text}>Calcular</Text>
         </Pressable>
-        <Text style={styles.result}>{this.state.calc}</Text>
         <Text style={styles.result}>{this.state.result}</Text>
       </View>
     );
